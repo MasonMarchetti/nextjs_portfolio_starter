@@ -63,3 +63,38 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.header-image {
+  display: flex;
+  justify-content: center;  /* Centers the image horizontally */
+  margin-top: 30px;     /* Optional: Adds space between the image and the header */
+}
+
+header {
+  text-align: center;       /* Centers the header text */
+}
+/* Center the content */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 0vh; /* Ensure it takes full viewport height */
+  text-align: center;
+}
+
+.centered-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0px; /* Space between the name and the image */
+  margin-top: 0;
+}
+
+.header-image img {
+  border-radius: 50%; /* Ensures the image remains circular */
+  margin-bottom: 0px;
+}
+
+.page-content {
+  margin-top: 0px;
+}
